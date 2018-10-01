@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Rejoy George</title>
+    <title>{{ myblog.title }}</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -24,45 +23,26 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="{% url 'home' %}">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="{% url 'home' %}">Home<span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="https://www.linkedin.com/in/rejoygeorge/">Linkedin</a>
-                <a class="nav-item nav-link" href="{% url 'allblogs' %}">Blog</a>
+                <a class="nav-item nav-link active" href="{% url 'allblogs' %}">Blog</a>
             </div>
         </div>
     </nav>
 </header>
 
 <main role="main">
-
-    <section class="jumbotron text-center">
-        <div class="container">
-            <h1 class="jumbotron-heading">Hi! I am Rejoy George</h1>
-            <p class="lead text-muted">This is my portflio website built using Django</p>
-            <p>
-                <a href="mailto:rejoyg@gmail.com" class="btn btn-primary my-2">Mail Me</a>
-            </p>
+    <div class="container">
+        <h2 class="text-center">{{ myblog.title }}</h2>
+        <p class="text-center">{{ myblog.pub_date }}</p>
+        <div class="text-center">
+            <img class="img-fluid" src="{{ myblog.image.url }}" height="400" width="400"/>
         </div>
-    </section>
-
-    <div class="album py-5 bg-light">
-        <div class="container">
-
-            <div class="row">
-                {% for job in jobs.all %}
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-body">
-                            <h4 class="card-text">{{ job.summary }}</h4>
-                        </div>
-                        <img class="card-img-top" src="{{ job.image.url }}" height=200 width=200/>
-                    </div>
-                </div>
-                {% endfor %}
-
-            </div>
-        </div>
+        <br />
+        <br />
+        <p>{{ myblog.body}}</p>
+        <hr />
     </div>
-
 </main>
 
 <footer class="text-muted">

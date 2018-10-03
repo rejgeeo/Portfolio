@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c4c5526-a1e0-4dcc-909b-dae070de16b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/blog/templates/blogs/allblogs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/blog/templates/blogs/blogdetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/jobs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/jobs/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/jobs/templates/jobs/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/jobs/templates/jobs/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/portfolio/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,19 +30,19 @@
         <counts>
           <entry key="html" value="1086" />
           <entry key="py" value="1410" />
-          <entry key="txt" value="76" />
+          <entry key="txt" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1086" />
-          <entry key="PLAIN_TEXT" value="76" />
+          <entry key="PLAIN_TEXT" value="118" />
           <entry key="Python" value="1410" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.65" value="1" />
@@ -85,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/blog/templates/blogs/blogdetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+            <state relative-caret-position="646">
+              <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -317,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538386431082</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="portfolio site completed">
+      <created>1538392663388</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1538392663388</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -410,7 +409,8 @@
     <MESSAGE value="Added blog app" />
     <MESSAGE value="added bootstrap home page" />
     <MESSAGE value="jobs showing up using bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="jobs showing up using bootstrap" />
+    <MESSAGE value="portfolio site completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="portfolio site completed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -551,8 +551,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/blog/templates/blogs/blogdetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        <state relative-caret-position="646">
+          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
         </state>
       </provider>
     </entry>
